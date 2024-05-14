@@ -14,6 +14,6 @@ namespace BB207_Pronia.Models
         public string Description { get; set; }
         public string? ImgUrl { get; set; }
         [NotMapped]
-        public IFormFile PhotoFile { get;set; }
+        public IFormFile? PhotoFile { get;set; }
     }
 }
